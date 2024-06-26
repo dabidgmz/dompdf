@@ -66,3 +66,4 @@ $dompdf->render();
 // Enviar el PDF al navegador
 $dompdf->stream("ticket_de_compra.pdf", ["Attachment" => 0]);
 ?>
+//esto es un cambio
